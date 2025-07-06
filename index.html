@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elegant Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-animation"></div>
+  <div class="login-card">
+    <h2 class="title">Welcome Back</h2>
+    <p class="subtitle">Please login to your account</p>
+    <form id="loginForm">
+      <div class="input-group">
+        <input type="text" id="username" required placeholder="Username" />
+      </div>
+      <div class="input-group">
+        <input type="password" id="password" required placeholder="Password" />
+      </div>
+      <div id="errorMsg" class="error-message"></div>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
